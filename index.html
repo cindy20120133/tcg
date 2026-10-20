@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TCG Card Valuation SMS Alerts</title>
+  <meta name="description" content="SMS notifications for Pokémon card valuation updates and collection summaries.">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #222;
+    }
+    h1, h2 { line-height: 1.25; }
+    .notice {
+      background: #f4f6f8;
+      padding: 16px;
+      border-radius: 8px;
+    }
+    label { display: block; margin: 16px 0; }
+    input[type="tel"] {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+    }
+    .consent {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .consent input { margin-top: 7px; }
+    a { color: #145dcc; }
+  </style>
+</head>
+<body>
+  <h1>TCG Card Valuation SMS Alerts</h1>
+
+  <p>
+    Receive automated SMS notifications about Pokémon card price
+    changes and collection value summaries.
+  </p>
+
+  <div class="notice">
+    <strong>SMS program details</strong>
+    <ul>
+      <li>Message frequency varies.</li>
+      <li>Message and data rates may apply.</li>
+      <li>Reply STOP to unsubscribe.</li>
+      <li>Reply HELP for assistance.</li>
+      <li>Consent is optional and is not a condition of purchase.</li>
+    </ul>
+  </div>
+
+  <h2>Sign up for SMS notifications</h2>
+
+  <form>
+    <label for="phone">Mobile phone number</label>
+    <input
+      type="tel"
+      id="phone"
+      name="phone"
+      placeholder="+1 555 555 0123"
+      autocomplete="tel"
+    >
+
+    <label class="consent">
+      <input type="checkbox" name="sms_consent">
+      <span>
+        I agree to receive automated SMS notifications from TCG about
+        Pokémon card valuation updates and collection value summaries.
+        Message frequency varies. Message and data rates may apply.
+        Reply STOP to opt out or HELP for assistance.
+      </span>
+    </label>
+
+    <p>
+      This demonstration form does not submit your number or record consent.
+      Do not enter personal information here.
+    </p>
+  </form>
+
+  <h2>Privacy policy</h2>
+  <p>
+    We use mobile numbers only for SMS notifications when a recipient
+    has provided valid consent. We do not sell or share SMS consent
+    or mobile numbers with third parties or affiliates for their
+    marketing purposes. Information may be processed by service providers
+    needed to deliver messages. You may opt out by replying STOP.
+  </p>
+
+  <h2>Terms and conditions</h2>
+  <p>
+    By opting in, you agree to receive automated SMS notifications
+    about Pokémon card valuation updates and collection summaries.
+    Message frequency varies. Message and data rates may apply.
+    Reply STOP to cancel and HELP for assistance. Wireless carriers
+    are not liable for delayed or undelivered messages. Service may
+    be changed or discontinued at any time.
+  </p>
+
+  <p>
+    <a href="#privacy">Privacy policy</a> ·
+    <a href="#terms">Terms and conditions</a>
+  </p>
+</body>
+</html>
